@@ -6,7 +6,6 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 
-
 defaults:
   -
     scope:
@@ -31,5 +30,10 @@ tags_path: tags.html
 
 BASE_PATH:
 
+name: Josh Aronoff Blog
+
+pygments: true
+
 gems: ['kramdown']
+
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
